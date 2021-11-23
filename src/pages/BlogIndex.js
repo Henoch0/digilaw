@@ -5,7 +5,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro";
 import Header from "components/headers/light.js";
-import Footer from "components/footers/MiniCenteredFooter";
+import Footer from "components/footers/SimpleFiveColumn";
 import { SectionHeading } from "components/misc/Headings";
 import { PrimaryButton } from "components/misc/Buttons";
 
@@ -51,131 +51,57 @@ const BlogIndex = ({
   posts = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1555864326-5cf22ef123cf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80",
-      category: "Gaming",
-      date: "April 21, 2021",
-      title: "5 Games die ihr 2022 nicht verpassen solltet!",
+        "https://images.unsplash.com/photo-1513188732907-5f732b831ca8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      category: "Tutorial",
+      date: "April 19, 2021",
+      title: "Custom Jordans für 40€ zum selber machen",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "/blog/gaming1",
+        "Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua now ele.",
+      url: "/blog",
       featured: true
     }, {
       imageSrc:
-        "https://images.unsplash.com/photo-1614680376739-414d95ff43df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
-      category: "Gaming",
+        "https://images.unsplash.com/photo-1537832816519-689ad163238b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=859&q=80",
+      title: "Die besten Accessoires unter 70 €",
+      authorName: " By Feyza",
+      url: "/blog",
       date: "April 19, 2020",
-      title: "3 Discord Funktionen die ihr noch nicht kanntet",
-
-      url: "/blog"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1598550476439-6847785fcea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80",
-      category: "Gaming",
-      date: "April 19, 2020",
-      title: "5 Tipps die eueren Streams verbessern",
+        "https://images.unsplash.com/photo-1603918066463-f6981e2d72ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+      title: "Herbstmode 2021 – Aktuelle Trends",
+      authorName: "By Beyza",
+      url: "/blog",
+      date: "März 14, 2021",
 
-      url: "/blog"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      category: "PC",
-      date: "April 19, 2020",
-      title: "Das beste Zubehör für euren PC",
-
+        "https://images.unsplash.com/photo-1569083366337-beef9f92f894?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80",
+      title: "Streetstyle Oversize Ideen",
+      authorName: "By Tommy",
+      date: "Januar 19, 2021",
       url: "/blog"
     },
     {
       imageSrc:
         "https://images.unsplash.com/photo-1598057076865-c67fefd248d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=925&q=80",
       category: "Design",
-      date: "April 19, 2020",
+      date: "August 08, 2020",
       title: "Die besten Design Artikel für euer Setup",
 
       url: "/blog"
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1527896573815-b7dd74893deb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
-      category: "Tutorial",
+        "https://images.unsplash.com/photo-1613251803780-7fcc21e13324?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      title: "3 Fashion Tipps um jedes Outfit auseinander zu nehmen",
+      authorName: "By Tommy",
+      url: "/blog",
       date: "April 19, 2020",
-      title: "Overclocken deiner PC Komponenten",
-
-      url: "/blog"
     },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
-      category: "Anime",
-      date: "April 19, 2020",
-      title: "10 Animes die ihr unbedingt anschauen solltet",
-
-      url: "/blog"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      category: "Gaming",
-      date: "April 19, 2020",
-      title: "Wie ihr euch leichter eine PS5 sichern könnt",
-
-      url: "/blog"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1555680206-9bc5064689db?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-      category: "Tutorial",
-      date: "April 19, 2020",
-      title: "Perfektes Kabelmanagement - So gelingt es dir!",
-
-      url: "/blog"
-    },
-    {
-      imageSrc:
-        "https://displate.com/img/about/get-inspired/magicalchamber.jpg",
-      category: "Design",
-      date: "April 19, 2020",
-      title: "Wandbilder - Die besten Ideen",
-
-      url: "/blog"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1592919346937-c9807c7a3333?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
-      category: "Tutorial",
-      date: "April 19, 2020",
-      title: "So tauscht ihr sicher eure Wärmeleitpaste aus",
-
-      url: "/blog"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1506420018407-c2cd559c63d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-      category: "Gaming",
-      date: "April 19, 2020",
-      title: "5 Tippps damit euer PC Sauber bleibt",
-
-      url: "/blog"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      category: "Gaming",
-      date: "April 19, 2020",
-      title: "Wie ihr euch leichter eine PS5 sichern könnt",
-
-      url: "/blog"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
-      category: "Gaming",
-      date: "April 19, 2020",
-      title: "Wie ihr euch leichter eine PS5 sichern könnt",
-
-      url: "/blog"
-    },
+  
 
   ]
 }) => {

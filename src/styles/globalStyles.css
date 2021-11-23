@@ -19,3 +19,8 @@
 Input {
     margin-top: 1.25rem !important;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+

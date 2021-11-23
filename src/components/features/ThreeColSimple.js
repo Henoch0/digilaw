@@ -9,7 +9,7 @@ import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
 import SupportIconImage from "images/support-icon.svg";
 import ShieldIconImage from "images/shield-icon.svg";
 import CustomizeIconImage from "images/customize-icon.svg";
-import { ReactComponent as SvgDecoratorBlob3 } from "images/svg-decorator-blob-3.svg";
+import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 
 const Heading = tw(SectionHeading)``;
 const Subheading = tw(SubheadingBase)`text-center mb-3`;
@@ -31,30 +31,26 @@ const Card = styled.a`
   }
 
   .title {
-    ${tw`mt-4 font-bold text-xl leading-none`}
+    ${tw`mt-4 font-bold text-xl leading-none dark:text-gray-200 `}
   }
 
   .description {
-    ${tw`mt-4 text-sm font-medium text-secondary-300`}
+    ${tw`mt-4 text-sm font-medium text-secondary-300 dark:text-gray-300`}
   }
 
   .link {
-    ${tw`mt-auto inline-flex items-center pt-5 text-sm font-bold text-primary-300 leading-none hocus:text-primary-900 transition duration-300`}
+    ${tw`mt-auto inline-flex items-center pt-5 text-sm font-bold text-primary-300 leading-none hocus:text-green-300 dark:text-green-200 transition duration-300`}
     .icon {
       ${tw`ml-2 w-4`}
     }
   }
 `;
 
-const DecoratorBlob = styled(SvgDecoratorBlob3)`
-  ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-40`}
-`;
-
 export default ({
   cards = [
     {
       imageSrc: ShieldIconImage,
-      title: "Secure",
+      title: "Eiskalter Drip",
       description: "We strictly only deal with vendors that provide top notch security.",
       url: "https://timerse.com"
     },
@@ -66,12 +62,12 @@ export default ({
     },
     {
       imageSrc: CustomizeIconImage,
-      title: "Customizable",
+      title: "Nachhaltigkeit",
       description: "Lorem ipsum donor amet siti ceali placeholder text",
       url: "https://reddit.com"
     }
   ],
-  linkText = "Learn More",
+  linkText = "Read More",
   heading = "",
   subheading = "",
   description = "",
@@ -86,32 +82,33 @@ export default ({
    *  4) url - the url that the card should goto on click
    */
   return (
-    <Container>
-      <ContentWithPaddingXl>
-        {subheading && <Subheading>{subheading}</Subheading>}
-        {heading && <Heading>{heading}</Heading>}
-        {description && <Description>{description}</Description>}
-        <ThreeColumnContainer>
-          {cards.map((card, i) => (
-            <Column key={i}>
-              <Card href={card.url}>
-                <span className="imageContainer" css={imageContainerCss}>
-                  <img src={card.imageSrc} alt="" css={imageCss} />
-                </span>
-                <span className="title">{card.title}</span>
-                <p className="description">{card.description}</p>
-                {linkText && (
-                  <span className="link">
-                    <span>{linkText}</span>
-                    <ArrowRightIcon className="icon" />
+
+      <Container>
+        <ContentWithPaddingXl>
+          {subheading && <Subheading>{subheading}</Subheading>}
+          {heading && <Heading>{heading}</Heading>}
+          {description && <Description>{description}</Description>}
+          <ThreeColumnContainer>
+            {cards.map((card, i) => (
+              <Column key={i}>
+                <Card href={card.url}>
+                  <span className="imageContainer" css={imageContainerCss}>
+                    <img src={card.imageSrc} alt="" css={imageCss} />
                   </span>
-                )}
-              </Card>
-            </Column>
-          ))}
-        </ThreeColumnContainer>
-      </ContentWithPaddingXl>
-      <DecoratorBlob />
-    </Container>
+                  <span className="title">{card.title}</span>
+                  <p className="description">{card.description}</p>
+                  {linkText && (
+                    <span className="link">
+                      <span>{linkText}</span>
+                      <ArrowRightIcon className="icon" />
+                    </span>
+                  )}
+                </Card>
+              </Column>
+            ))}
+          </ThreeColumnContainer>
+        </ContentWithPaddingXl>
+      </Container>
+
   );
 };

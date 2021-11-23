@@ -2,11 +2,10 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import tw from "twin.macro";
 import styled from "styled-components";
-import currentUser from '../../App.js';
-
+import { Link } from 'react-router-dom';
 import useAnimatedNavToggler from "../../helpers/useAnimatedNavToggler.js";
 
-import logo from "../../images/logo.svg";
+import logo from "../../images/logo1.svg";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 
@@ -15,15 +14,13 @@ const Header = tw.header`
   max-w-screen-xl mx-auto
 `;
 
-export const NavLinks = tw.div`inline-block`;
+export const NavLinks = tw.div`inline-block `;
 
-/* hocus: stands for "on hover or focus"
- * hocus:bg-primary-700 will apply the bg-primary-700 class on hover or focus
- */
+
 export const NavLink = tw.a`
   text-lg my-2 lg:text-sm lg:mx-6 lg:my-0
   font-semibold tracking-wide transition duration-300
-  pb-1 border-b-2 border-transparent hover:border-primary-500 hocus:text-primary-500 
+  pb-1 border-b-2 border-transparent hover:border-green-200 hocus:text-green-200  
 `;
 
 export const PrimaryLink = tw(NavLink)`
@@ -74,31 +71,35 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
 
   const defaultLinks = [
     <NavLinks key={1}>
-    <NavLink href="/contactUs">
-      Contact
-    </NavLink>
-    <NavLink href="/blog">
-      Blog
-    </NavLink>
-    <NavLink href="/builds">
-      Look
-    </NavLink>
-  </NavLinks>,
-  <NavLinks key={2}>
-    <PrimaryLink href="/" >
-      Logout
-    </PrimaryLink>
-  </NavLinks>
+      <Link to="/blog"> <NavLink >
+        Blog
+      </NavLink>
+      </Link>
+      <Link to="/lookbook"> <NavLink >
+        Lookbook
+      </NavLink>
+      </Link>
+      <Link to="/store"> <NavLink >
+        Store
+      </NavLink>
+      </Link>
+      <Link to="/contactUs"> <NavLink >
+        Contact
+      </NavLink>
+      </Link>
+    </NavLinks>,
+
   ];
 
   const { showNavLinks, animation, toggleNavbar } = useAnimatedNavToggler();
   const collapseBreakpointCss = collapseBreakPointCssMap[collapseBreakpointClass];
 
   const defaultLogoLink = (
-    <LogoLink href="/">
+    <Link to="/"><LogoLink href="/">
       <img src={logo} alt="logo" />
-      weBuild
+      metacloth
     </LogoLink>
+    </Link>
   );
 
   logoLink = logoLink || defaultLogoLink;

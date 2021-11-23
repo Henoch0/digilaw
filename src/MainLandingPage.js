@@ -3,13 +3,14 @@ import React, { useEffect, useState } from "react";
 import Builds from 'components/cards/ThreeColSlider';
 import FAQ from 'components/faqs/SingleCol';
 import Employee from './components/cards/ProfileThreeColGrid';
-import Features from './components/features/ThreeColWithSideImage';
+import Features from './components/features/ThreeColSimple';
 import Background from './components/hero/BackgroundAsImageWithCenteredContent';
 import Blog from './components/blogs/GridWithFeaturedPost';
-import Footer from 'components/footers/MiniCenteredFooter';
+import Footer from 'components/footers/SimpleFiveColumn';
 import UserReview from 'components/testimonials/ThreeColumnWithProfileImage';
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import AnchorLink from "react-anchor-link-smooth-scroll";
+import Features2 from "./components/features/VerticalWithAlternateImageAndText";
 import tw from "twin.macro";
 
 
@@ -37,8 +38,7 @@ export default () => {
         <AnimationRevealPage>
           <Background />
           <Features />
-          <Builds />
-          <UserReview />
+          <Features2/>
           <Employee />
           <Blog/>
           <FAQ />

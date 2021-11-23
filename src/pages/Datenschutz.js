@@ -5,7 +5,7 @@ import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import Header from "components/headers/light.js";
-import Footer from "components/footers/MiniCenteredFooter";
+import Footer from "components/footers/SimpleFiveColumn";
 import { SectionHeading } from "components/misc/Headings";
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900 dark:text-gray-400 mb-10`;
@@ -33,7 +33,7 @@ const Text = styled.div`
     }
   }
 `;
-const PrivacyPolicy = ({ headingText = "Privacy Policy" }) => {
+const Datenschutz = ({ headingText = "Datenschutz" }) => {
   return (
     <AnimationRevealPage>
       <Header />
@@ -389,4 +389,4 @@ const PrivacyPolicy = ({ headingText = "Privacy Policy" }) => {
   );
 };
 
-export default PrivacyPolicy
+export default Datenschutz

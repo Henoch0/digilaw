@@ -66,43 +66,43 @@ export default ({
   posts = [
     {
       postImageSrc:
-        "https://images.unsplash.com/photo-1555864326-5cf22ef123cf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1047&q=80",
+        "https://images.unsplash.com/photo-1513188732907-5f732b831ca8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
       authorImageSrc:
         henoch,
-      title: "Games die ihr 2021 nicht verpassen solltet!",
+      title: "Custom Jordans für 40€ zum selber machen",
       description:
         "Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua now ele.",
-      authorName: "Henoch Biru",
+      authorName: "By Henoch",
       authorProfile: "CEO",
       url: "/blog",
       featured: true
     },
     {
       postImageSrc:
-        "https://images.unsplash.com/photo-1614680376739-414d95ff43df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
-      title: "3 Discord Funktionen die ihr noch nicht kanntet",
-      authorName: "Henoch Biru",
+        "https://images.unsplash.com/photo-1537832816519-689ad163238b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=859&q=80",
+      title: "Die besten Accessoires unter 70 €",
+      authorName: " By Feyza",
       url: "/blog",
     },
     {
       postImageSrc:
-        "https://images.unsplash.com/photo-1598550476439-6847785fcea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80",
-      title: "5 Tipps die eueren Streams verbessern",
-      authorName: "Tarkan Cosar",
+        "https://images.unsplash.com/photo-1603918066463-f6981e2d72ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+      title: "Herbstmode 2021 – Aktuelle Trends",
+      authorName: "By Beyza",
       url: "/blog",
     },
     {
       postImageSrc:
-        "https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-      title: "Das beste Zubehör für euren PC",
-      authorName: "Onur Cosar",
+        "https://images.unsplash.com/photo-1569083366337-beef9f92f894?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80",
+      title: "Streetstyle Oversize Ideen",
+      authorName: "By Tommy",
       url: "/blog",
     },
     {
       postImageSrc:
-        "https://images.unsplash.com/photo-1598057076865-c67fefd248d3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=925&q=80",
-      title: "Die besten Design Artikel für euer Traum Setup",
-      authorName: "Onurhan Yilmaz",
+        "https://images.unsplash.com/photo-1613251803780-7fcc21e13324?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      title: "3 Fashion Tipps um jedes Outfit auseinander zu nehmen",
+      authorName: "By Tommy",
       url: "/blog",
     }
   ]

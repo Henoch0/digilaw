@@ -22,10 +22,10 @@ const Image = styled.div(props => [
   tw`rounded md:w-1/2 lg:w-5/12 xl:w-1/3 flex-shrink-0 h-80 md:h-144 bg-cover bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8`
 ]);
 const Details = tw.div`mt-4 md:mt-0 md:max-w-md mx-4 sm:mx-8 md:mx-4 lg:mx-8`;
-const Subtitle = tw.div`font-bold tracking-wide text-secondary-100`;
-const Title = tw.h4`text-3xl font-bold text-gray-900`;
-const Description = tw.p`mt-2 text-sm leading-loose`;
-const Link = tw.a`inline-block mt-4 text-sm text-primary-500 font-bold cursor-pointer transition duration-300 border-b-2 border-transparent hover:border-primary-500`;
+const Subtitle = tw.div`font-bold tracking-wide text-secondary-100 dark:text-gray-300 `;
+const Title = tw.h4`text-3xl font-bold text-gray-900 dark:text-gray-200 `;
+const Description = tw.p`mt-2 text-sm leading-loose dark:text-gray-300`;
+const Link = tw.a`inline-block mt-4 text-sm text-green-300 font-bold cursor-pointer transition duration-300 border-b-2 border-transparent hover:border-green-300`;
 
 const SvgDotPattern1 = tw(
   SvgDotPatternIcon
@@ -44,32 +44,32 @@ export default () => {
   const cards = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1550699026-4114bbf4fb49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80",
-      subtitle: "Paid",
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=420&q=80",
+      subtitle: "Classic",
       title: "Loachella, NYC",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com"
+      url: ""
     },
 
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1543423924-b9f161af87e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-      subtitle: "Free",
+        "https://images.unsplash.com/photo-1616146552703-a7e6ec345ffa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      subtitle: "Wild",
       title: "Rock In Rio, Upstate",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com"
+      url: ""
     },
 
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1509824227185-9c5a01ceba0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80",
-      subtitle: "Exclusive",
+        "https://images.unsplash.com/photo-1519722417352-7d6959729417?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+      subtitle: "Free",
       title: "Lollapalooza, Manhattan",
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com"
+      url: ""
     }
   ];
 
@@ -77,9 +77,9 @@ export default () => {
     <Container>
       <SingleColumn>
         <HeadingInfoContainer>
-          <HeadingTitle>Popular Events</HeadingTitle>
+          <HeadingTitle>Our Designs</HeadingTitle>
           <HeadingDescription>
-            Here are some of the most popular events in New York City curated by professionals.
+            most popular
           </HeadingDescription>
         </HeadingInfoContainer>
 
@@ -91,7 +91,7 @@ export default () => {
                 <Subtitle>{card.subtitle}</Subtitle>
                 <Title>{card.title}</Title>
                 <Description>{card.description}</Description>
-                <Link href={card.url}>See Event Details</Link>
+                <Link href={card.url}>See Details</Link>
               </Details>
             </Card>
           ))}

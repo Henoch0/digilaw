@@ -46,54 +46,51 @@ export default ({
     {
       question: "Wie kann ich euch erreichen ?",
       answer:
-        "Du kannst uns über alle gängigen Social Media Plattformen erreichen (unten verlinkt), über unsere E-Mail weBuild-team@outlook.de oder rufe uns doch gerne einfach an Tel: 08952348523"
+        "Du kannst uns über alle gängigen Social Media Plattformen erreichen (unten verlinkt), über unsere E-Mail metacloth-support@outlook.de oder rufe uns doch gerne einfach an Tel: 08952348523"
+    },
+
+    {
+      question: "Was kostet mich der Versand?",
+      answer:
+        "Bis zu einem Bestellwert von 80€ kostet dich der Versand 4,90€. Ab 100€ Bestellwert ist er für dich kostenfrei, wenn die Lieferadresse in Deutschland liegt."
+    },
+
+    {
+      question: "Welche Bezahlung nimmt ihr an ?",
+      answer:
+        "Wir nehmen folgende Bezahlungsarten an: PayPal, Banküberweisung, Kreditkartenzahlung (Mastercard & VISA), Klarna."
     },
     {
-      question: "Wie viel kostet euer Service ?",
+      question: "Wie lange dauert die Lieferung?",
       answer:
-        "Wir bieten 3 Service Pläne: Basic Virtual für 49.99€, Premium für 99.99€ und Enterpise für 199.99€"
+        "Innerhalb von 6-7 Tagen solltest du deine Bestellung in Händen halten! Sollte es mal in Ausnahmefällen zu Verzögerungen kommen, sagen wir dir natürlich Bescheid."
     },
     {
-      question: "Was beinhaltet der Service Plan Basic Virtual?",
+      question: "Wieso 6-7 Tage? ",
       answer:
-        "Dieser Service beinhaltet folgende Leistungen: Wir beraten dich ,über einen Kommunikationskanal deiner Wahl, zur besten Komponentenauswahl für dein Vorhaben. Zusätzlich erhälst du persönlichen 24/7 Support falls Probleme aufkommen sollten. Wir bieten dir Hilfe beim Aufbauen deines PC's über WebCam oder LiveChat an"
+        "Gute Frage. In der 'normalen Online-Shopping-Welt' ist man doch eher 1-4 Tage gewohnt und 5-7 Tage erscheinen einem etwas lang. Das kommt daher, dass wir unsere Produkte on Demand produzieren, um überschüssige Lagerhaltung zu vermeiden und die Umwelt zu schonen."
     },
     {
-      question: "Was beinhaltet der Service Plan Premium?",
+      question: "Kann ich meine Bestellung noch ändern oder stornieren? ",
       answer:
-      "Dieser Service beinhaltet folgende Leistungen: Wir kümmern uns um alle Bestellungen deiner Komponenten darüberhinaus bauen wir deinen Computer ordnungsgemäß für dich zusammen und schicken ihn dir bereits voll funktionsfähig. Du musst ihn nur am Strom anstecken. Auch hier wird hier dein persönlicher Support an der Seite stehen und zusätzlich erhälst du die Chance an useren Gewinnspielen teilzunehmen."
-    },
-    {
-      question: "Was beinhaltet der Service Plan Enterprise?",
-      answer:
-        "Dieser Service beinhaltet folgende Leistungen: Wir bauen nicht nur deinen PC in wenigen Tagen, dank Express Lieferungen, zusammen sondern designen auch auf Wunsch dein komplettes Setup. Von Zubehör bis zu Design Elementen werden wir deine Gaming Ecke auf einen ausgewählten Stil optimieren. So geben wir deinem Gaming Erlebniss die perfekte Atmosphöre."
-    },
-    {
-      question: "Ich bin doch unzufrieden mit dem Ergebnis. Was nun?",
-      answer:
-        "Wir stellen schon im Vorraus sicher das auf alle Wünsche unserer Kunden optimal eingagangen wird. Falls dir doch etwas nicht gefallen hat oder die Leistung ungenügend ist, melde dich bitte innerhalb 30 Tage nach Lieferung bei uns und wir finden bestimmt eine Lösung die beide Seiten zufrieden stellt."
-    },
-    {
-      question: "Hilfe ich habe Probleme mit der Hardware / Software !",
-      answer:
-        "Falls Hardware oder auch Software Probleme jeder Art auftreten sollten, melde dich bei uns und unsere Experten werden dir weiterhelfen"
-    },
-    {
-      question: "Muss ich technisches Wissen besitzen ?",
-      answer:
-        "Nein unser Service ist darauf ausgelegt jeder Person, egal in welchem Alter oder mit welchen Wissenstand, den Traum PC zu bauen."
+        "Selbstverständlich! Solange du noch keine Trackingnummer erhalten hast, also dein Paket noch nicht auf dem Weg zu dir ist können wir deine Bestellung noch bearbeiten oder stornieren. Schreib uns hierfür kurz an metacloth-support@outlook.de.    "
     },
     {
       question: "Welche Bezahlung nimmt ihr an ?",
       answer:
-        "Wir nehmen folgende Bezahlungsarten an: PayPal, Banküberweisung, Kreditkartenzahlung, Klarna."
+        "Wir nehmen folgende Bezahlungsarten an: PayPal, Banküberweisung, Kreditkartenzahlung (Mastercard & VISA), Klarna."
     },
     {
       question: "Liefert ihr auch international ?",
       answer:
         "Wir liefern zurzeit nur innerhalb Deutschlands."
     },
-    
+    {
+      question: "Was mache ich, wenn mir ein Artikel nicht passt oder nicht gefällt?",
+      answer:
+        "Innerhalb von 14 Tagen nachdem du deine Bestellung erhalten hast kannst du deinen Einkauf problemlos bei uns widerrufen und wir erstatten dir selbstverständlich den vollen Kaufpreis der Ware zurück. Nähere Infos zum gesamten Prozess findest du hier. "
+    },
+
   ]
 }) => {
   const [activeQuestionIndex, setActiveQuestionIndex] = useState(null);
@@ -151,7 +148,7 @@ export default ({
           </FAQSContainer>
         </Column>
       </ContentWithPaddingXl>
-      <DecoratorBlob1/>
+      <DecoratorBlob1 />
       <DecoratorBlob2 />
     </Container>
   );

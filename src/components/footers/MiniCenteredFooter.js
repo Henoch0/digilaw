@@ -33,7 +33,7 @@ export default () => {
         <Row>
           <LogoContainer>
             <LogoImg src={logo} />
-            <LogoText>weBuild</LogoText>
+            <LogoText></LogoText>
           </LogoContainer>
           <LinksContainer>
             <Link href="/">Home</Link>
@@ -43,7 +43,7 @@ export default () => {
             <Link href="/blog">Blog</Link>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="mailto:weBuild-team@outlook.de">
+            <SocialLink href="mailto:metacloth-support@outlook.de">
            <FaMailBulk/>
             </SocialLink>
             <SocialLink href="https://twitter.com">

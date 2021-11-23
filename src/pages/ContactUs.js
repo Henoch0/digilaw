@@ -3,7 +3,7 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import Header from "components/headers/light.js";
-import Footer from "components/footers/MiniCenteredFooter";
+import Footer from "components/footers/SimpleFiveColumn";
 import ContactUsForm from "components/forms/TwoColContactUsWithIllustrationFullForm.js";
 import ContactDetails from "components/cards/ThreeColContactDetails.js";
 
@@ -28,7 +28,7 @@ const ContactUs = () => {
                   <AddressLine>40 Gates Court</AddressLine>
                   <AddressLine>Endicott, NY 13760</AddressLine>
                 </Address>
-                <Email>weBuild-team@outlook.de</Email>
+                <Email>metacloth-support@outlook.de</Email>
                 <Phone>+1 (203) 991-6988</Phone>
               </>
             )
@@ -41,7 +41,7 @@ const ContactUs = () => {
                   <AddressLine>Sapporoweg 8-6</AddressLine>
                   <AddressLine>Bayern, 80933</AddressLine>
                 </Address>
-                <Email>weBuild-team@outlook.de</Email>
+                <Email>metacloth-support@outlook.de</Email>
                 <Phone>+1 (203) 991-6988</Phone>
               </>
             )
@@ -54,7 +54,7 @@ const ContactUs = () => {
                   <AddressLine>96 NE. Delaware Lane</AddressLine>
                   <AddressLine>Sacramento, CA 95820</AddressLine>
                 </Address>
-                <Email>weBuild-team@outlook.de</Email>
+                <Email>metacloth-support@outlook.de</Email>
                 <Phone>+1 (203) 991-6988</Phone>
               </>
             )
@@ -67,7 +67,7 @@ const ContactUs = () => {
                   <AddressLine>102 Chiyoda</AddressLine>
                   <AddressLine>Yonbancho, Präfektur Tokio</AddressLine>
                 </Address>
-                <Email>weBuild-team@outlook.de</Email>
+                <Email>metacloth-support@outlook.de</Email>
                 <Phone>+1 (203) 991-6988</Phone>
               </>
             )
@@ -80,7 +80,7 @@ const ContactUs = () => {
                   <AddressLine>8355 Summer Street</AddressLine>
                   <AddressLine>Manchester, NJ 08759</AddressLine>
                 </Address>
-                <Email>weBuild-team@outlook.de</Email>
+                <Email>metacloth-support@outlook.de</Email>
                 <Phone>+1 (203) 991-6988</Phone>
               </>
             )
@@ -93,7 +93,7 @@ const ContactUs = () => {
                   <AddressLine>7713 Hongdae Street</AddressLine>
                   <AddressLine>서울특별시 마포구 서교동 365-8</AddressLine>
                 </Address>
-                <Email>weBuild-team@outlook.de</Email>
+                <Email>metacloth-support@outlook.de</Email>
                 <Phone>+1 (203) 991-6988</Phone>
               </>
             )
