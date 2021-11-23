@@ -1,7 +1,6 @@
 import React from 'react';
 
 import ProductItem from './ProductItem';
-import styles from './ProductsGrid.module.scss';
 import { useProducts } from '../../hooks/useProducts';
 
 const ProductsGrid = () => {
