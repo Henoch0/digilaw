@@ -69,7 +69,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "tommy",
+      imageSrc: tommy,
       position: "CEO",
       name: "Minh Thang Nguyen",
       links: [
