@@ -46,7 +46,7 @@ export default ({
     {
       question: "Wie kann ich euch erreichen ?",
       answer:
-        "Du kannst uns über alle gängigen Social Media Plattformen erreichen (unten verlinkt), über unsere E-Mail metacloth-support@outlook.de oder rufe uns doch gerne einfach an Tel: 08952348523"
+        "Du kannst uns über alle gängigen Social Media Plattformen erreichen (unten verlinkt), über unsere E-Mail Drip N Law-support@outlook.de oder rufe uns doch gerne einfach an Tel: 08952348523"
     },
 
     {
@@ -73,7 +73,7 @@ export default ({
     {
       question: "Kann ich meine Bestellung noch ändern oder stornieren? ",
       answer:
-        "Selbstverständlich! Solange du noch keine Trackingnummer erhalten hast, also dein Paket noch nicht auf dem Weg zu dir ist können wir deine Bestellung noch bearbeiten oder stornieren. Schreib uns hierfür kurz an metacloth-support@outlook.de.    "
+        "Selbstverständlich! Solange du noch keine Trackingnummer erhalten hast, also dein Paket noch nicht auf dem Weg zu dir ist können wir deine Bestellung noch bearbeiten oder stornieren. Schreib uns hierfür kurz an Drip N Law-support@outlook.de.    "
     },
     {
       question: "Welche Bezahlung nimmt ihr an ?",

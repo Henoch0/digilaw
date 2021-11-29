@@ -2,7 +2,6 @@ import React, { useContext } from 'react';
 import { Link } from "react-router-dom";
 import { CartContext } from '../../contexts/CartContext';
 import {CartIcon} from '../icons';
-
 const Header = () => {
 
     const {itemCount} = useContext(CartContext);
@@ -18,7 +17,7 @@ const Header = () => {
                     <h4 className="text-2xl font-bold leading-tight text-white">Collection Vol-1</h4>
                     <ul className="flex flex-col md:flex-row items-start md:items-center text-gray-300 text-sm mt-3">
                         <li className="flex items-center mr-4">
-                            <span className="mr-3">Na ist dir schon kalt von dem ganzen eiskalten Drip hier?</span>
+                            <span className="mr-3">released on 29th of November 2021</span>
                         </li>
                     </ul>
                 </div>

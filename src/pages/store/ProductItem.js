@@ -17,10 +17,9 @@ const ProductItem = ({product}) => {
 
             <img  className="w-full" 
             src={product.photo + '?v=' + product.id} alt=""/>
-            <p className=" font-semibold text-xl leading-5 text-gray-200 mt-4">{product.name}</p>
-            <h3 className="font-semibold text-xl leading-5 text-gray-200 mt-4">{formatNumber(product.price)}</h3>
+            <p className=" font-semibold text-xl leading-5 text-gray-900 dark:text-gray-200 mt-4">{product.name}</p>
+            <h3 className="font-semibold text-xl leading-5 text-gray-900 dark:text-gray-200 mt-4">{formatNumber(product.price)}</h3>
             <div>
-                <Link  to="/" className="">Details</Link>
 
                 {
                     isInCart(product) && 

@@ -97,7 +97,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLogoLink = (
     <Link to="/"><LogoLink href="/">
       <img src={logo} alt="logo" />
-      metacloth
+      Drip N Law
     </LogoLink>
     </Link>
   );

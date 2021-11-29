@@ -58,7 +58,7 @@ const TermsOfService = ({ headingText = "Allgemeine Geschäftsbedingungen" }) =>
             <p>Falls Fragen über die AGB auftreten sollten kontaktieren sie uns bitte:</p>
 
             <ul>
-              <li>By email: metacloth-support@outlook.de</li>
+              <li>By email: Drip N Law-support@outlook.de</li>
               <li>By phone number: 089357283</li>
             </ul>
           </Text>

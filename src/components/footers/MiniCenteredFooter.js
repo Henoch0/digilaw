@@ -43,7 +43,7 @@ export default () => {
             <Link href="/blog">Blog</Link>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="mailto:metacloth-support@outlook.de">
+            <SocialLink href="mailto:Drip N Law-support@outlook.de">
            <FaMailBulk/>
             </SocialLink>
             <SocialLink href="https://twitter.com">

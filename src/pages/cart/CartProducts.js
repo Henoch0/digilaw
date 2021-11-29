@@ -8,7 +8,7 @@ const CartProducts = () => {
     const { cartItems } = useCart();
 
     return ( 
-        <div>
+        <div >
          
 
                 {

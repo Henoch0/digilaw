@@ -19,7 +19,7 @@ const PostImage = styled.div`
   ${tw`h-64 sm:h-80 bg-center bg-cover rounded-t`}
 `;
 const PostText = tw.div`flex-1 px-6 py-8` 
-const PostTitle = tw.h6`font-bold group-hocus:text-primary-500 transition duration-300 `;
+const PostTitle = tw.h6`font-bold group-hocus:text-green-300 transition duration-300 `;
 const PostDescription = tw.p``;
 const AuthorInfo = tw.div`flex`;
 const AuthorImage = tw.img`w-12 h-12 rounded-full mr-3`;
@@ -101,7 +101,7 @@ export default ({
     {
       postImageSrc:
         "https://images.unsplash.com/photo-1613251803780-7fcc21e13324?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
-      title: "3 Fashion Tipps um jedes Outfit auseinander zu nehmen",
+      title: "3 Fashion Tipps um jedes Outfit sepcial zu machen",
       authorName: "By Tommy",
       url: "/blog",
     }

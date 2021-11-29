@@ -11,6 +11,8 @@ import { ReactComponent as GithubIcon } from "images/github-icon.svg";
 import henoch from "images/henoch.jpg";
 import beyza from "images/beyza.jfif";
 import feyza from "images/feyza.jfif";
+import tommy from "images/tommy.jpeg";
+
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
 const Subheading = tw(SubheadingBase)`text-center mb-3`
@@ -67,7 +69,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://www.btc-echo.de/wp-content/uploads/2021/03/Shiba-Inu_235366714-920x613.jpg",
+      imageSrc: "tommy",
       position: "CEO",
       name: "Minh Thang Nguyen",
       links: [

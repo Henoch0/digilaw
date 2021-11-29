@@ -8,6 +8,9 @@ import ProductsContextProvider from '../contexts/ProductsContext';
 import CartContextProvider from '../contexts/CartContext';
 import * as serviceWorker from '../serviceWorker.js';
 import App from "App"
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/custom-animations/cube-animation.css';
+import AwsSliderStyles from 'react-awesome-slider/src/core/styles.scss';
 
 import Header1, { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "components/headers/light.js";
 

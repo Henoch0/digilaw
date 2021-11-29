@@ -6,7 +6,7 @@ import { FaDiscord, FaInstagram, FaTwitter, FaMailBulk, FaTwitch, FaYoutube } fr
 import LogoImage from "../../images/logo.png";
 import { Link } from "react-router-dom";
 
-const Container = tw.div`relative bg-gray-200 dark: bg-gray-900 -mx-8 -mb-8 px-8 dark:text-gray-200`;
+const Container = tw.div`relative bg-gray-200 dark: bg-gray-900 -mx-8 -mb-8 px-8 text-gray-200`;
 const FiveColumns = tw.div`max-w-screen-xl mx-auto py-16 lg:py-20 flex flex-wrap justify-between`;
 
 const Column = tw.div`md:w-1/5`;
@@ -22,7 +22,7 @@ const LogoContainer = tw.div`flex items-center justify-center md:justify-start`;
 const LogoImg = tw.img`w-8`;
 const LogoText = tw.h5`ml-2 text-xl font-black text-green-200`;
 
-const CompanyDescription = tw.p`mt-4 max-w-xs font-medium text-sm mx-auto md:mx-0 md:mr-4  dark:text-gray-200 `;
+const CompanyDescription = tw.p`mt-4 max-w-xs font-medium text-sm mx-auto md:mx-0 md:mr-4 text-gray-200 `;
 
 const SocialLinksContainer = tw.div`mt-4 `;
 const SocialLink = styled.a`
@@ -39,13 +39,13 @@ export default () => {
         <WideColumn>
           <LogoContainer>
             <LogoImg src={LogoImage} />
-            <LogoText>metacloth</LogoText>
+            <LogoText>Drip N Law</LogoText>
           </LogoContainer>
           <CompanyDescription>
-            Metacloth ist eine deutsche Street-/Modemarke, die von Jugendkultur und Streetstyle beeinflusst ist.
+            Drip N Law Clothing ist eine deutsche Street-/Modemarke, die von Jugendkultur und Streetstyle beeinflusst ist.
           </CompanyDescription>
           <SocialLinksContainer>
-            <SocialLink href="mailto:metacloth-support@outlook.de">
+            <SocialLink href="mailto:Drip N Law-support@outlook.de">
               <FaMailBulk />
             </SocialLink>
             <SocialLink href="https://discord.gg/fKeC3rvu">
