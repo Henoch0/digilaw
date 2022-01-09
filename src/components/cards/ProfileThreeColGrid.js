@@ -70,7 +70,7 @@ export default ({
     },
     {
       imageSrc: tommy,
-      position: "CEO",
+      position: "Manager",
       name: "Minh Thang Nguyen",
       links: [
         {

@@ -43,12 +43,12 @@ const PrivacyPolicy = ({ headingText = "Impressum" }) => {
             <Heading>{headingText}</Heading>
           </HeadingRow>
           <Text>
-            <p>Drip N Lawing GbR <br />
+            <p>Drip N Law GbR <br />
               Lothstraße 34 <br />
               80933 München, Deutschland <br />
               Tel:. 49 176 9528305</p>
             <br />
-            <p> E-Mail: Drip N Lawing-support@outlook.de</p>
+            <p> E-Mail: Drip N Law-support@outlook.de</p>
             <p>Vertretungsberechtigte Gesellschafter: Henoch Biru, Minh Thang Nguyen, Feyza Killic, Beyza Cavus</p>
             <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: DE358234</p>
             <p>Plattform der EU-Kommission zur Online-Streitbeilegung: www.ec.europa.eu/consumers/odr</p>

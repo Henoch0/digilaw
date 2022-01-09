@@ -10,6 +10,9 @@ import SupportIconImage from "images/support-icon.svg";
 import ShieldIconImage from "images/shield-icon.svg";
 import CustomizeIconImage from "images/customize-icon.svg";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
+import { FaSnowflake as Snow } from 'react-icons/fa';
+import {GiEcology} from "react-icons/gi"
+import { BiSupport } from 'react-icons/bi';
 
 const Heading = tw(SectionHeading)``;
 const Subheading = tw(SubheadingBase)`text-center mb-3`;
@@ -25,9 +28,6 @@ const Card = styled.a`
   ${tw`flex flex-col items-center text-center h-full mx-4 px-4 py-8 rounded transition-transform duration-300 hover:cursor-pointer transform hover:scale-105 `}
   .imageContainer {
     ${tw`text-center rounded-full p-4 bg-gray-100`}
-    img {
-      ${tw`w-8 h-8`}
-    }
   }
 
   .title {
@@ -47,32 +47,29 @@ const Card = styled.a`
 `;
 
 export default ({
+
+
   cards = [
     {
-      imageSrc: ShieldIconImage,
+
       title: "Eiskalter Drip",
       description: "We strictly only deal with vendors that provide top notch security.",
-      url: "https://timerse.com"
     },
     {
       imageSrc: SupportIconImage,
       title: "24/7 Support",
       description: "Lorem ipsum donor amet siti ceali placeholder text",
-      url: "https://google.com"
     },
     {
       imageSrc: CustomizeIconImage,
       title: "Nachhaltigkeit",
       description: "Lorem ipsum donor amet siti ceali placeholder text",
-      url: "https://reddit.com"
     }
   ],
   linkText = "Read More",
   heading = "",
   subheading = "",
   description = "",
-  imageContainerCss = null,
-  imageCss = null
 }) => {
   /*
    * This componets accepts a prop - `cards` which is an array of object denoting the cards. Each object in the cards array can have the following keys (Change it according to your need, you can also add more objects to have more cards in this feature component):
@@ -83,32 +80,68 @@ export default ({
    */
   return (
 
-      <Container>
-        <ContentWithPaddingXl>
-          {subheading && <Subheading>{subheading}</Subheading>}
-          {heading && <Heading>{heading}</Heading>}
-          {description && <Description>{description}</Description>}
-          <ThreeColumnContainer>
-            {cards.map((card, i) => (
-              <Column key={i}>
-                <Card href={card.url}>
-                  <span className="imageContainer" css={imageContainerCss}>
-                    <img src={card.imageSrc} alt="" css={imageCss} />
-                  </span>
-                  <span className="title">{card.title}</span>
-                  <p className="description">{card.description}</p>
-                  {linkText && (
-                    <span className="link">
-                      <span>{linkText}</span>
-                      <ArrowRightIcon className="icon" />
-                    </span>
-                  )}
-                </Card>
-              </Column>
-            ))}
-          </ThreeColumnContainer>
-        </ContentWithPaddingXl>
-      </Container>
+    <Container>
+      <ContentWithPaddingXl>
+        {subheading && <Subheading>{subheading}</Subheading>}
+        {heading && <Heading>{heading}</Heading>}
+        {description && <Description>{description}</Description>}
+        <ThreeColumnContainer>
+
+          <Column key={1}>
+            <Card >
+              <span className="imageContainer" >
+                <Snow size={56} />
+              </span>
+              <span className="title">Eiskalter Drip</span>
+              <p className="description">Coole und stylische Outfits für jeden mit dem du direkt Blicke auf dich ziehen wirst.</p>
+              {linkText && (
+                <span className="link">
+                  <span>{linkText}</span>
+                  <ArrowRightIcon className="icon" />
+                </span>
+              )}
+            </Card>
+
+          </Column>
+          <Column key={1}>
+            <Card >
+              <span className="imageContainer" >
+             <GiEcology size={56}/>
+              </span>
+              <span className="title">Fair Fashion</span>
+              <p className="description">Verwendung von Bio-Rohstoffen 	&amp; Ressourcen schonende Herstellung</p>
+              {linkText && (
+                <span className="link">
+                  <span>{linkText}</span>
+                  <ArrowRightIcon className="icon" />
+                </span>
+              )}
+            </Card>
+
+          </Column>
+
+          <Column key={1}>
+            <Card >
+              <span className="imageContainer" >
+                <BiSupport size={56} />
+              </span>
+              <span className="title">24/7 Support</span>
+              <p className="description">Für Fragen und bei Problemen stehen wir in vielzähligen Kanälen zur Verfügung.</p>
+              {linkText && (
+                <span className="link">
+                  <span>{linkText}</span>
+                  <ArrowRightIcon className="icon" />
+                </span>
+              )}
+            </Card>
+
+          </Column>
+
+
+
+        </ThreeColumnContainer>
+      </ContentWithPaddingXl>
+    </Container>
 
   );
 };

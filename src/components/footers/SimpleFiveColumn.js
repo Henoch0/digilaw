@@ -6,6 +6,7 @@ import { FaDiscord, FaInstagram, FaTwitter, FaMailBulk, FaTwitch, FaYoutube } fr
 import LogoImage from "../../images/logo.png";
 import { Link } from "react-router-dom";
 
+
 const Container = tw.div`relative bg-gray-200 dark: bg-gray-900 -mx-8 -mb-8 px-8 text-gray-200`;
 const FiveColumns = tw.div`max-w-screen-xl mx-auto py-16 lg:py-20 flex flex-wrap justify-between`;
 

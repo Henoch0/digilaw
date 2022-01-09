@@ -16,7 +16,7 @@ const ProductsGrid = () => {
 
                     <div className=" flex justify-between items-center">
 
-                        <p className=" cursor-pointer hover:underline duration-100 font-normal text-base leading-4 text-gray-200">   {products.length} Produkte</p>
+                        <p className=" cursor-pointer hover:underline duration-100 font-normal text-base leading-4">   {products.length} Produkte</p>
                     </div>
 
                     <div className=" grid gap-10  lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-y-12 lg:gap-x-8 sm:gap-y-10 sm:gap-x-6 gap-y-6 lg:mt-12 mt-10">
