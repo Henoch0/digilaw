@@ -48,7 +48,7 @@ export default () => {
       subtitle: "Classic",
       title: "Coachella, NYC",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Klassische Kleidung überzeugt durch schlichte Eleganz, hochwertige Materialien und zeitlose Schnitte. Fans klassischer Mode schätzen das gepflegte Erscheinungsbild und die Seriosität des Stils. Die Kleidung ist gut verarbeitet und besitzt eine hervorragende Passform.",
       url: ""
     },
 
@@ -58,7 +58,7 @@ export default () => {
       subtitle: "Wild",
       title: "Rock In Rio, Upstate",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Betone deinen Stil und hebe dich von der Menge ab. Setze auf einzigartige Kleidung um alle Blicke auf dich zu ziehen. Trau dich und probiere Neues um schon bald mit unsere Hilfe eine Mode Experte der heutigen Zeit zu werden.",
       url: ""
     },
 
@@ -68,7 +68,7 @@ export default () => {
       subtitle: "Free",
       title: "Lollapalooza, Manhattan",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Stehst vor dem vollen Kleiderschrank und findest trotzdem alle Outfits langweilig? Bei uns findest du Inspirationen für den Frühling und für den Sommer, welche du ganz einfach frei stylen kannst. Vom lässigen Alltagsoutfit über coole Streetstyle Looks.",
       url: ""
     }
   ];

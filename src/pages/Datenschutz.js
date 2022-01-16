@@ -45,14 +45,17 @@ const Datenschutz = ({ headingText = "Datenschutz" }) => {
           <Text>
             <p>Last updated: April 21, 2021</p>
             Da diese Website auf einem Service von dem Unternehmen salesforce.com Germany GmbH gehostet wird, unterliegt jede Aktivität auf der Seite auch der Datenschutzerklärung www.salesforce.com/de/company/privacy/.
+          
+            <h1>Bestellvorgang</h1>
             <p>
-              This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your
-              information when You use the Service and tells You about Your privacy rights and how the law protects You.
-            </p>
 
-            <p>
-              We use Your Personal data to provide and improve the Service. By using the Service, You agree to the
-              collection and use of information in accordance with this Privacy Policy.
+              Sämtliche Daten, welche im Rahmen einer Bestellabwicklung von den Kunden eingegeben werden, werden gespeichert. Dazu gehören:
+
+              <p> - Name, Vorname</p>
+              <p> - Adresse</p>
+              <p> - Zahlungsinformationen</p>
+              <p> - E-Mail Adresse</p>
+              Jene Daten, welche zur Auslieferung oder Auftragsabwicklung zwingend notwendig sind, werden an dritte Dienstleister weitergegeben. Sowie die Aufbewahrung Ihrer Daten nicht mehr erforderlich oder gesetzlich geboten ist, werden diese gelöscht.
             </p>
 
             <h1>Interpretation and Definitions</h1>
@@ -67,7 +70,7 @@ const Datenschutz = ({ headingText = "Datenschutz" }) => {
 
             <h2>Definitions</h2>
             <p>For the purposes of this Privacy Policy:</p>
-         
+
           </Text>
         </ContentWithPaddingXl>
       </Container>
