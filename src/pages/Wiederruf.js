@@ -11,7 +11,7 @@ import { SectionHeading } from "components/misc/Headings";
 const HeadingRow = tw.div`flex`;
 const Heading = tw(SectionHeading)`text-gray-900 dark:text-gray-400 mb-10`;
 const Text = styled.div`
-  ${tw`text-lg  text-gray-800 dark: text-gray-400`}
+  ${tw`text-lg  text-gray-800 dark:text-gray-400`}
   p {
     ${tw`mt-2 leading-loose`}
   }
@@ -34,7 +34,6 @@ const Text = styled.div`
     }
   }
 `;
-
 const TermsOfService = ({ headingText = "Wiederruftsrechtsbelehrung" }) => {
   return (
     <AnimationRevealPage>
