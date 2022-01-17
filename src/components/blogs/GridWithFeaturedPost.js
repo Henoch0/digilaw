@@ -69,9 +69,9 @@ export default ({
         "https://images.unsplash.com/photo-1513188732907-5f732b831ca8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
       authorImageSrc:
         henoch,
-      title: "Custom Jordans für 40€ zum selber machen",
+      title: "Custom Schuhe für 40€ zum selber machen",
       description:
-        "Lorem ipsum dolor sit amet, consecteturious adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua now ele.",
+        "Du hast es satt immer die selben Schuhe wie allen anderen anzuziehen. Wir zeigen euch wie ihr eure Dunks, Jordans & AF1 ganz einfach selber uniqe stylen könnt",
       authorName: "By Henoch",
       authorProfile: "CEO",
       url: "/blog",

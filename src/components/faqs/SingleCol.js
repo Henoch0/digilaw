@@ -52,7 +52,7 @@ export default ({
     {
       question: "Was kostet mich der Versand?",
       answer:
-        "Bis zu einem Bestellwert von 80€ kostet dich der Versand 4,90€. Ab 100€ Bestellwert ist er für dich kostenfrei, wenn die Lieferadresse in Deutschland liegt."
+        "Bis zu einem Bestellwert von 80€ kostet dich der Versand 4,90€. Darüber ist er für dich kostenfrei, wenn die Lieferadresse in Deutschland liegt."
     },
 
     {
