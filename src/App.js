@@ -16,7 +16,8 @@ import Lookbook from "pages/Lookbook"
 import Store from "pages/Store"
 import Cart from "pages/Store"
 import tw from "twin.macro";
-import ErrorPage from "pages/ErrorPage"
+import ErrorPage from "pages/ErrorPage";
+import Wiederruf from "pages/Wiederruf"
 const Container = tw.div`dark:bg-gray-900 `;
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -48,6 +49,9 @@ export default function App() {
           </Route>
           <Route exact path="/agb">
             <AGB />
+          </Route>
+          <Route exact path="/wiederruf">
+            <Wiederruf />
           </Route>
           <Route exact path="/contactus">
             <ContactUsPage />

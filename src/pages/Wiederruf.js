@@ -35,7 +35,7 @@ const Text = styled.div`
   }
 `;
 
-const TermsOfService = ({ headingText = "Allgemeine Geschäftsbedingungen" }) => {
+const TermsOfService = ({ headingText = "Wiederruftsrechtsbelehrung" }) => {
   return (
     <AnimationRevealPage>
       <Header />
@@ -45,6 +45,29 @@ const TermsOfService = ({ headingText = "Allgemeine Geschäftsbedingungen" }) =>
             <Heading>{headingText}</Heading>
           </HeadingRow>
           <Text>
+              <p>Das Widerrufsformular ergibt sich aus der amtlichen Information zu Artikel 246 a § 1 Abs. 2 S. 1 Nr. 1 EGBGB.:
+Muster-Widerrufsformular
+(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden
+Sie es zurück.)
+<br/>
+– An: <br/>
+Drip N Law<br/>
+Sapporoweg 8-6 <br/>
+Bayern, 80933<br/>
+Drip N Law-support@outlook.de+1 (203) 991-6988<br/>
+
+– Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über den Kauf
+der folgenden Waren (*)/ die Erbringung der folgenden Dienstleistung (*)
+-Bestellt am (*)/erhalten am (*):<br/>
+-Name des/der Verbraucher(s):<br/>
+-Anschrift des/der Verbraucher(s):<br/>
+– Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier):<br/>
+– Datum:<br/>
+_______________
+(*) Unzutreffendes streichen.
+
+
+</p>
           </Text>
         </ContentWithPaddingXl>
       </Container>
