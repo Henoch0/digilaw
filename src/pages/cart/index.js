@@ -47,7 +47,7 @@ const Cart = () => {
                                         <h3 className="m-0">{formatNumber(total)}</h3>
                                         <hr className="my-4" />
                                         <div className="text-center">
-                                            <button type="button" className="mx-2 my-2 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-black-100 px-6 py-3 text-sm" onClick={handleCheckout}>Bestellen</button>
+                                            <button type="button" className="mx-2 my-2 bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-black-100 px-6 py-3 text-sm" onClick={handleCheckout}>Kostenpflichtig Bestellen</button>
 
                                             <button type="button" className="mx-3 my-2 bg-white transition duration-150 ease-in-out hover:border-gray-900 hover:text-gray-900 rounded border border-gray-800  px-6 py-3 text-sm" onClick={clearCart}>Warenkorb leeren</button>
                                             <div className="flex-1 px-6 py-8 text-sm text-center ">
