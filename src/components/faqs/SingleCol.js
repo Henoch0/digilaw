@@ -88,7 +88,7 @@ export default ({
     {
       question: "Was mache ich, wenn mir ein Artikel nicht passt oder nicht gefällt?",
       answer:
-        "Innerhalb von 14 Tagen nachdem du deine Bestellung erhalten hast kannst du deinen Einkauf problemlos bei uns widerrufen und wir erstatten dir selbstverständlich den vollen Kaufpreis der Ware zurück. Nähere Infos zum gesamten Prozess findest du hier. "
+        "Innerhalb von 14 Tagen nachdem du deine Bestellung erhalten hast kannst du deinen Einkauf problemlos bei uns widerrufen und wir erstatten dir selbstverständlich den vollen Kaufpreis der Ware zurück. Nähere Infos zum gesamten Prozess findest du unten bei der Wiederrufsbelehrung. "
     },
 
   ]

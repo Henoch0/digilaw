@@ -34,7 +34,7 @@ const Text = styled.div`
     }
   }
 `;
-const TermsOfService = ({ headingText = "Wiederruftsrechtsbelehrung" }) => {
+const TermsOfService = ({ headingText = "Widerrufsrechtsbelehrung" }) => {
   return (
     <AnimationRevealPage>
       <Header />
@@ -44,29 +44,31 @@ const TermsOfService = ({ headingText = "Wiederruftsrechtsbelehrung" }) => {
             <Heading>{headingText}</Heading>
           </HeadingRow>
           <Text>
-              <p>Das Widerrufsformular ergibt sich aus der amtlichen Information zu Artikel 246 a § 1 Abs. 2 S. 1 Nr. 1 EGBGB.:
-Muster-Widerrufsformular
-(Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden
-Sie es zurück.)
-<br/>
-– An: <br/>
-Drip N Law<br/>
-Sapporoweg 8-6 <br/>
-Bayern, 80933<br/>
-Drip N Law-support@outlook.de+1 (203) 991-6988<br/>
+            <p>(1) Das Widerrufsformular ergibt sich aus der amtlichen Information zu Artikel 246 a § 1 Abs. 2 S. 1 Nr. 1 EGBGB.:
+              Muster-Widerrufsformular
+              (Wenn Sie den Vertrag widerrufen wollen, dann füllen Sie bitte dieses Formular aus und senden
+              Sie es zurück.)
+              <br />
+              – An: <br />
+              Drip N Law<br />
+              Sapporoweg 8-6 <br />
+              Bayern, 80933<br />
+              Drip N Law-support@outlook.de+1 (203) 991-6988<br />
 
-– Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über den Kauf
-der folgenden Waren (*)/ die Erbringung der folgenden Dienstleistung (*)
--Bestellt am (*)/erhalten am (*):<br/>
--Name des/der Verbraucher(s):<br/>
--Anschrift des/der Verbraucher(s):<br/>
-– Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier):<br/>
-– Datum:<br/>
-_______________
-(*) Unzutreffendes streichen.
+              – Hiermit widerrufe(n) ich/wir (*) den von mir/uns (*) abgeschlossenen Vertrag über den Kauf
+              der folgenden Waren (*)/ die Erbringung der folgenden Dienstleistung (*)
+              -Bestellt am (*)/erhalten am (*):<br />
+              -Name des/der Verbraucher(s):<br />
+              -Anschrift des/der Verbraucher(s):<br />
+              – Unterschrift des/der Verbraucher(s) (nur bei Mitteilung auf Papier):<br />
+              – Datum:<br />
+              _______________
+              (*) Unzutreffendes streichen.
 
 
-</p>
+            </p>
+            <p>(2) Die Widerrufsfrist beträgt 14 Tage. Sie beginnt mit Vertragsschluss, soweit nichts anderes bestimmt ist.</p>
+            <p>(3) Im Falle des Widerrufs sind die empfangenen Leistungen unverzüglich zurückzugewähren. Bestimmt das Gesetz eine Höchstfrist für die Rückgewähr, so beginnt diese für den Unternehmer mit dem Zugang und für den Verbraucher mit der Abgabe der Widerrufserklärung. Ein Verbraucher wahrt diese Frist durch die rechtzeitige Absendung der Waren. Der Unternehmer trägt bei Widerruf die Gefahr der Rücksendung der Waren.</p>
           </Text>
         </ContentWithPaddingXl>
       </Container>
